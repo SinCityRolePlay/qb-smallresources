@@ -1,4 +1,4 @@
-local recoils = {
+--local recoils = {
 	-- Melee
 	-- [-1834847097] = 0.3,		--['weapon_dagger']
 	-- [-1786099057] = 0.3,		--['weapon_bat']
@@ -24,7 +24,7 @@ local recoils = {
 	-- [940833800] = 0.3,		--['weapon_stone_hatchet']
 
 	-- Handguns
-	[453432689] = 0.3,			--['weapon_pistol']
+	--[[[453432689] = 0.3,			--['weapon_pistol']
 	[-1075685676] = 0.5,		--['weapon_pistol_mk2']
 	[1593441988] = 0.2,			--['weapon_combatpistol']
 	[584646201] = 0.3,			--['weapon_appistol']
@@ -120,9 +120,9 @@ local recoils = {
 	-- [883325847] = 0.3,		--['weapon_petrolcan']
 	-- [101631238] = 0.3,		--['weapon_fireextinguisher']
 	-- [-1168940174] = 0.3,		--['weapon_hazardcan']
-}
+}]]
 
-CreateThread(function()
+--[[CreateThread(function()
 	while true do
 		local ped = PlayerPedId()
 		if IsPedShooting(ped) and not IsPedDoingDriveby(ped) then
@@ -154,4 +154,4 @@ CreateThread(function()
 		end
 		Wait(0)
 	end
-end)
+end)]]
