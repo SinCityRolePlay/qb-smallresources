@@ -14,7 +14,7 @@ local blips = {
    --{title = "Art Gallery", colour=60, id=468, x = -425.51, y = 17.49, z = 46.29},
    --{title = "Meat Processing Plant", colour=49, id=141, x = 994.40, y = -2162.40, z = 30.41},
    --{title = "Hide Merchant", colour=49, id=141, x = 173.60, y = 2778.93, z = 46.08},
-   {title = "Burger Shot", colour=17, id=106, x = -1170.99, y = -888.23, z = 13.99},
+   --{title = "Burger Shot", colour=17, id=106, x = -1170.99, y = -888.23, z = 13.99},
    {title = "Yellow Jack", colour=27, id=140, x = 1994.08, y = 3059.18, z =47.05},
    {title = "Apple Store", colour=37, id=521, x = 151.53, y = -228.16, z =54.42},
    {title = "CyberBar", colour=83, id=484, x = 327.94, y = -907.16, z =29.25},
