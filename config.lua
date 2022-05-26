@@ -43,6 +43,10 @@ ConsumeablesEat = {
     ['ne_salmonnigri']          = math.random(25, 45),
     ['ne_tempuraroll']          = math.random(25, 45),
     ['ne_volcanoroll']          = math.random(25, 45),
+
+    ['hotdog_a']                = math.random(1, 35),
+    ['hotdog_b']                = math.random(1, 26),
+    ['hotdog_c']                = math.random(1, 17),
 }
 
 ConsumeablesDrink = {
