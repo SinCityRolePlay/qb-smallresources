@@ -14,7 +14,10 @@ CreateThread(function()
                     if dist < 1 then
                         DrawText3Ds(v.coords.x, v.coords.y, v.coords.z, v.drawText)
                         if IsControlJustReleased(0, 51) then
+                            
                             if k == 1 then
+                                DoScreenFadeOut(500)
+                                Wait(1000)
                                 if v["AllowVehicle"] then
                                     SetPedCoordsKeepVehicle(ped, Config.Teleports[loc][2].coords.x, Config.Teleports[loc][2].coords.y, Config.Teleports[loc][2].coords.z)
                                 else
@@ -24,7 +27,11 @@ CreateThread(function()
                                 if type(Config.Teleports[loc][2].coords) == "vector4" then
                                     SetEntityHeading(ped, Config.Teleports[loc][2].coords.w)
                                 end
+                                Wait(1000)
+                                DoScreenFadeIn(600)
                             elseif k == 2 then
+                                DoScreenFadeOut(500)
+                                Wait(1000)
                                 if v["AllowVehicle"] then
                                     SetPedCoordsKeepVehicle(ped, Config.Teleports[loc][1].coords.x, Config.Teleports[loc][1].coords.y, Config.Teleports[loc][1].coords.z)
                                 else
@@ -34,6 +41,8 @@ CreateThread(function()
                                 if type(Config.Teleports[loc][1].coords) == "vector4" then
                                     SetEntityHeading(ped, Config.Teleports[loc][1].coords.w)
                                 end
+                                Wait(1000)
+                                DoScreenFadeIn(600)
                             end
                         end
                     end
