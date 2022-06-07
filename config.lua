@@ -147,7 +147,7 @@ Config.BlacklistedPeds = {
 
 Config.Teleports = {
     --Elevator @ labs
-    [1] = {
+    --[[[1] = {
         [1] = {
             coords = vector4(3540.74, 3675.59, 20.99, 167.5),
             ["AllowVehicle"] = false,
@@ -159,7 +159,7 @@ Config.Teleports = {
             drawText = '[E] Take Elevator Down'
         },
 
-    },
+    },]]
     --Callisto
     [2] = {
         [1] = {
@@ -188,7 +188,7 @@ Config.Teleports = {
         },
     },
     --Real Estate Office
-    [4] = {
+    --[[[4] = {
         [1] = {
             coords = vector4(-117.77, -608.74, 36.28, 69.39),
             ["AllowVehicle"] = false, 
@@ -199,7 +199,7 @@ Config.Teleports = {
             ["AllowVehicle"] = false,
             drawText = '[E] Leave'
         },
-    },
+    },]]
     --Callisto 2
     [5] = {
         [1] = {
@@ -214,7 +214,7 @@ Config.Teleports = {
         },
     },
     --integrity
-    [5] = {
+    --[[[5] = {
         [1] = {
             coords = vector4(280.78, -651.84, 42.02, 335.14),--front right
             ["AllowVehicle"] = false, 
@@ -285,7 +285,7 @@ Config.Teleports = {
             ["AllowVehicle"] = false,
             drawText = '[E] Down to Lobby'
         },
-    },
+    },]]
     [11] = { -- Weapon Crafting Mine
         [1] = {
             coords = vector4(-613.23, -1624.84, 33.01, 173.99),--left back
@@ -334,7 +334,7 @@ Config.Teleports = {
             drawText = '[E] Street'
         },
     },
-    [15] = {
+    --[[[15] = {
         [1] = {
             coords = vector4(-1581.18, -558.47, 34.95, 35.33),
             ["AllowVehicle"] = false, 
@@ -345,7 +345,7 @@ Config.Teleports = {
             ["AllowVehicle"] = false,
             drawText = '[E] Street'
         },
-    },
+    },]]
     
         --[[[13] = { -- Arena Wars Entry
             [1] = {
